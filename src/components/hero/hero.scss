@@ -1,0 +1,51 @@
+.first-fold {
+    padding: 30px;
+    height: 90vh;
+    align-items: center;
+    display: flex;
+}
+
+.first-fold-left {
+    width: 40%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    h2 {
+        font-size: 58px;
+    }
+}
+
+.first-fold-right {
+    width: 60%;
+
+    .hero-image {
+        width: 100%;
+    }
+}
+
+.hero-cta {
+    background: #EF5C1E;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    font-family: inherit;
+    justify-content: center;
+    width: 200px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    height: 58px;
+
+    &:hover {
+        .arrow {
+            transform: translateX(5px);
+            transition: all 0.2s ease-in-out;
+            color: #fff;
+        }
+    }
+}
+
+
+    
