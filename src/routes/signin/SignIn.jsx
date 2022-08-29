@@ -1,5 +1,5 @@
 import React from 'react'
-import './signin.css'
+import './signin.scss'
 import {auth, signInWithGooglePopup, createUserDocFromAuth } from '../../utils/firebase/firebase.utils'
 const SignIn = () => {
 

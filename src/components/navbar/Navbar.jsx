@@ -16,7 +16,7 @@ const Navbar = () => {
             <Link to='/' className='nav-links'>News</Link>
         </div>
         <div className='nav-sign-up arrow'>
-            <Link to='/sign-in' className='nav-links'>Sign up </Link>
+            <Link to='/sign-up' className='nav-links'> Sign up </Link>
         </div>
     </nav>
     <Outlet />

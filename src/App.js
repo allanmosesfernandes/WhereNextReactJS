@@ -3,6 +3,7 @@ import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero';
 import {Routes, Route} from 'react-router-dom'
 import SignIn from './routes/signin/SignIn';
+import SignUpForm from './components/signup-form/SignUpForm';
 function App() {
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route index={true} element={<Hero />} />
         <Route path='about'element={<About />} />
         <Route path='sign-in'element={<SignIn />} />
+        <Route path='sign-up'element={<SignUpForm />} />
       </Route>
     </Routes>
   );

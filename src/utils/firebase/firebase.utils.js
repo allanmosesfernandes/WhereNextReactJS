@@ -4,7 +4,8 @@ import {
     getAuth,
     signInWithEmailAndPassword,
     signInWithPopup,
-    GoogleAuthProvider
+    GoogleAuthProvider,
+    createUserWithEmailAndPassword,
 } from "firebase/auth";
 
 import {
@@ -54,11 +55,9 @@ STEP 03 - Set up your firebase
 */
 
 export const db = getFirestore();
-export const createUserDocFromAuth = async (user) => {
+export const createUserDocFromAuth = async (user, additionalInformation = {}) => {
+    if(!user) return;
     const userDocRef = doc(db, 'users', user.uid);
-
-
-
     const userSnapshot = await getDoc(userDocRef);
 
     // if user data doesnt exists 
@@ -72,7 +71,8 @@ export const createUserDocFromAuth = async (user) => {
             await setDoc(userDocRef, {
                 displayName,
                 email,
-                createdAt
+                createdAt,
+                ...additionalInformation
             });
         } 
         catch (error){
@@ -80,6 +80,14 @@ export const createUserDocFromAuth = async (user) => {
         }
     };
 
-    // if user data exists do noting and return userDocReference
+    // if user data exists do nothing and return userDocReference
     return  userDocRef
+}
+
+
+// Create User With Email & Password
+
+export const createAuthUserWithEmailAndPassword = async (email, password) => {
+    if(!email || !password) return;
+    return await createUserWithEmailAndPassword(auth, email, password);
 }
