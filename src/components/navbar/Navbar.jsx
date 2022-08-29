@@ -20,7 +20,6 @@ const Navbar = () => {
     </nav>
     <Outlet />
     <Footer></Footer>
-    <Link to='/about'>Abe lavde</Link>
     </Fragment>
 
   )

@@ -14,6 +14,7 @@ footer {
     padding: 0 5rem;
     background-repeat: no-repeat;
     position: relative;
+
     h4 {
         margin: 2rem 0;
     }
@@ -31,7 +32,7 @@ footer {
     z-index: 100;
 
     a {
-            cursor: pointer;
+        cursor: pointer;
     }
 }
 
@@ -60,6 +61,7 @@ footer {
     position: relative;
     height: 200px;
 }
+
 .footer--links__social {
 
     &::before {
@@ -124,3 +126,25 @@ footer {
 
 
 /* Making Footer Responsive */
+@media only screen and (max-width: 600px) {
+
+    footer {
+        padding: 0 1rem;
+        margin-top: 1rem;
+    }
+
+    .footer--links {
+        width: 100%;
+        gap: 1rem;
+    }
+.footer--links {
+gap: 1rem;
+grid-template-columns: 1fr 1fr;
+}
+    .footer--links__social {
+        margin: 1rem 0;
+    }
+    .whereMedia {
+        margin-bottom: 0;
+    }
+}
