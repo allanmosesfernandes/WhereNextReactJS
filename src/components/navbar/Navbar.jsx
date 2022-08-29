@@ -2,6 +2,7 @@ import {Fragment, React} from 'react'
 import {Outlet, Link} from 'react-router-dom'
 import { GrFormNextLink } from 'react-icons/gr';
 import Footer from '../footer/Footer';
+import SignIn from '../../routes/signin/SignIn';
 import './navbar.scss';
 const Navbar = () => {
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
             <Link to='/' className='nav-links'>News</Link>
         </div>
         <div className='nav-sign-up arrow'>
-            <Link to='/' className='nav-links'>Sign up </Link>
+            <Link to='/sign-in' className='nav-links'>Sign up </Link>
         </div>
     </nav>
     <Outlet />

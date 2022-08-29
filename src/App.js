@@ -2,6 +2,7 @@ import './App.scss';
 import Navbar from './components/navbar/Navbar';
 import Hero from './components/hero/Hero';
 import {Routes, Route} from 'react-router-dom'
+import SignIn from './routes/signin/SignIn';
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
       <Route path='/' element={<Navbar />}>
         <Route index={true} element={<Hero />} />
         <Route path='about'element={<About />} />
+        <Route path='sign-in'element={<SignIn />} />
       </Route>
     </Routes>
   );
