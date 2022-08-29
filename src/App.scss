@@ -8,7 +8,8 @@
 
 body {
   font-family: 'Roboto Mono', monospace;
-
+  position: relative;
+  z-index: 0;
 }
 
 a {
@@ -17,7 +18,7 @@ a {
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -35,14 +36,14 @@ img {
   width: 40%;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p {
-     margin: 0;
+  margin: 0;
 }
 
 

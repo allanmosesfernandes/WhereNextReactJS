@@ -1,0 +1,126 @@
+.footer-links {
+    margin: 2rem 2rem 1rem 2rem;
+}
+
+
+
+footer {
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 0 5rem;
+    background-repeat: no-repeat;
+    position: relative;
+    h4 {
+        margin: 2rem 0;
+    }
+}
+
+.footer--links {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 0;
+    gap: 5rem;
+    place-items: center;
+    position: relative;
+    align-items: flex-start;
+    z-index: 100;
+
+    a {
+            cursor: pointer;
+    }
+}
+
+.whereMedia {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    h5 {
+        margin: 1rem 0;
+        color: #EF5C1E;
+
+    }
+
+    a {
+        margin: 0.5rem 0;
+        font-size: 0.8rem;
+    }
+
+    svg {
+        margin: 0 1rem 0 0;
+    }
+}
+
+.footer-ke-upar {
+    position: relative;
+    height: 200px;
+}
+.footer--links__social {
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 2px;
+        border-bottom: 1px solid #d3d3d3;
+        top: 0;
+        left: 0;
+    }
+
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1rem;
+
+    position: relative;
+
+    a {
+        margin: 0 0.5rem;
+        color: #EF5C1E;
+    }
+}
+
+.footer--body {
+    text-align: center;
+    color: #828282;
+
+    p {
+        margin: 1rem 0;
+        font-size: 10px;
+    }
+
+    h5 {
+        margin: 2rem 0;
+    }
+}
+
+.footer--body__text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    font-size: 10px;
+    color: #828282;
+}
+
+
+.footer--background {
+    background-repeat: no-repeat;
+    height: 400px;
+    position: absolute;
+    opacity: 0.1;
+    width: 100%;
+    top: 0;
+    background-size: contain;
+    background-position: center;
+}
+
+
+/* Making Footer Responsive */

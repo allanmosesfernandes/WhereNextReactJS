@@ -1,7 +1,7 @@
 import {Fragment, React} from 'react'
 import {Outlet, Link} from 'react-router-dom'
 import { GrFormNextLink } from 'react-icons/gr';
-
+import Footer from '../footer/Footer';
 import './navbar.scss';
 const Navbar = () => {
   return (
@@ -19,6 +19,8 @@ const Navbar = () => {
         </div>
     </nav>
     <Outlet />
+    <Footer></Footer>
+    <Link to='/about'>Abe lavde</Link>
     </Fragment>
 
   )

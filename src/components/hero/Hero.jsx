@@ -10,7 +10,7 @@ const Hero = () => {
     <div className='container'>
     <div className='first-fold'>
     <section className='first-fold-left'>
-        <h5 className='orange-link'>Welcome! Where Next Platform</h5>
+        <h5 className='orange-link'>Welcome to the Where Next Platform!</h5>
         <h2>Getting You Where You Want To <span className='orange-link'>Study</span>.
         <BiPaperPlane/>
         </h2>
