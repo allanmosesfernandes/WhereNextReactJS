@@ -2,7 +2,7 @@ import {React, useState} from 'react'
 import './sign-up.scss'
 import { createAuthUserWithEmailAndPassword, createUserDocFromAuth } from '../../utils/firebase/firebase.utils'
 import { setDoc } from 'firebase/firestore'
-
+import Button from '../buttons/Button'
 import FormInput from '../form-input-component/FormInput'
 const SignUpForm = () => {
 const defaultFormFields = {
@@ -45,13 +45,13 @@ const formSubmit = async (e) => {
 }
 
   return (
-    <div className='sign-up--container'>
-        <h1>Sign Up with your email & password</h1>
+    <div className='sign-up-container'>
+        <h2>Don't have an account?</h2>
+        <span>Sign Up with your email & password.</span>
         <form onSubmit={formSubmit}>
             <FormInput 
                 label='Display Name'
                 type='text' 
-                placeholder='John Doe'  
                 name='displayName' 
                 onChange={handleChange} 
                 value={displayName}
@@ -59,7 +59,6 @@ const formSubmit = async (e) => {
             <FormInput 
                 label='Email'
                 type='email' 
-                placeholder='johndoe@gmail.com'  
                 name='email' 
                 onChange={handleChange} 
                 value={email}
@@ -67,7 +66,6 @@ const formSubmit = async (e) => {
             <FormInput 
                 label='Password'
                 type='password' 
-                placeholder='******'  
                 name='password' 
                 onChange={handleChange} 
                 value={password}
@@ -75,13 +73,12 @@ const formSubmit = async (e) => {
             <FormInput 
                 label='Confirm Password'
                 type='password' 
-                placeholder='******'  
                 name='confirmPassword' 
                 onChange={handleChange} 
                 value={confirmPassword}
             />
 
-            <button type='submit'>SUBMIT</button>
+            <Button buttonClassName='default' type='submit'>Submit</Button>
         </form>
     </div>
   )
