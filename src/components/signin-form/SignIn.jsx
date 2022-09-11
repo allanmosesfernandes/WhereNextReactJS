@@ -1,4 +1,4 @@
-import {React, useState ,useContext } from 'react'
+import {React, useState } from 'react'
 import { 
     createAuthUserWithEmailAndPassword, 
     createUserDocFromAuth,
@@ -28,9 +28,8 @@ const resetFormFields = () => {
 }
 
 const signInWithGPopup = async () => {
-    const {user}  = await signInWithGooglePopup();
+    await signInWithGooglePopup();
     // await createUserDocFromAuth(user)
-    createUserDocFromAuth(user);
 }
 
 const formSubmit = async (e) => {

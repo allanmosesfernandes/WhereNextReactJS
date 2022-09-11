@@ -1,4 +1,4 @@
-import {React, useState, useContext} from 'react'
+import {React, useState} from 'react'
 import './sign-up.scss'
 import { createAuthUserWithEmailAndPassword, createUserDocFromAuth } from '../../utils/firebase/firebase.utils'
 import { setDoc } from 'firebase/firestore'
