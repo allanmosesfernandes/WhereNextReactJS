@@ -1,9 +1,15 @@
-import {Fragment, React} from 'react'
+import {Fragment, React, useContext} from 'react'
 import {Outlet, Link} from 'react-router-dom'
 import { GrFormNextLink } from 'react-icons/gr';
 import Footer from '../footer/Footer';
 import './navbar.scss';
+import { UserContext } from '../../context/user.context';
+import { signOutUser } from '../../utils/firebase/firebase.utils';
+
 const Navbar = () => {
+
+  const {currentUser }  = useContext(UserContext);
+
   return (
     <Fragment>
     <nav className='nav-container'>
@@ -15,7 +21,15 @@ const Navbar = () => {
             <Link to='/' className='nav-links'>News</Link>
         </div>
         <div className='nav-sign-up arrow'>
-            <Link to='/auth' className='nav-links'> Sign up </Link>
+        { currentUser ? (
+          <span className='nav-links' onClick={signOutUser}>
+            {' '}
+            SIGN OUT {' '}
+          </span>
+            ):(
+                <Link to='/auth' className='nav-links'>Sign In</Link>
+            )
+          }
         </div>
     </nav>
     <Outlet />
