@@ -18,7 +18,7 @@ const Navbar = () => {
             <Link to='about' className='nav-links'>About </Link>
             <Link to='/' className='nav-links'>Discover</Link>
             <Link to='/' className='nav-links'>Update</Link>
-            <Link to='/' className='nav-links'>News</Link>
+            <Link to='news' className='nav-links'>News</Link>
         </div>
         <div className='nav-sign-up arrow'>
         { currentUser ? (
