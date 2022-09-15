@@ -34,6 +34,7 @@ const formSubmit = async (e) => {
 
     try {
         const {user} = await createAuthUserWithEmailAndPassword(email,password);
+        console.log(user);
         await createUserDocFromAuth(user,{displayName});
         resetFormFields();
     }
@@ -41,8 +42,10 @@ const formSubmit = async (e) => {
     catch(error) {
         if(error.code === 'auth/email-already-in-use')
         {
+            console.log(error);
             alert('Cannot create user, email already in use')
         }
+        console.log(error);
     }
 }
 
