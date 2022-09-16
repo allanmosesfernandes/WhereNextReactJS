@@ -1,0 +1,57 @@
+[   
+    {
+        "id": 1,
+        "title": "Computer Science",
+        "imageUrl": "https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "linkUrl": "computer-science"
+    },
+    {
+        "id": 2,
+        "title": "Artifical Intelligence",
+        "imageUrl": "https://media.istockphoto.com/photos/microprocessor-on-motherboard-computer-circuit-picture-id1345658982?s=2048x2048",
+        "linkUrl": "computer-science"
+    },
+    {
+        "id": 3,
+        "title": "Data Science",
+        "imageUrl": "https://media.istockphoto.com/photos/data-science-concept-picture-id1405263192",
+        "linkUrl": "computer-science"
+    },
+    {
+        "id": 4,
+        "title": "Cyber Securiy",
+        "imageUrl": "https://media.istockphoto.com/photos/digital-cloud-security-background-concept-picture-id1331943958",
+        "linkUrl": "computer-science"
+    },
+    {
+        "id": 5,
+        "title": "Games Technology",
+        "imageUrl": "https://media.istockphoto.com/photos/man-using-virtual-reality-headset-picture-id621592090?s=612x612",
+        "linkUrl": "computer-science"
+    },
+    {
+        "id": 6,
+        "title": "Software Engineering",
+        "imageUrl": "https://media.istockphoto.com/photos/making-progress-on-her-code-picture-id529418742?s=612x612",
+        "linkUrl": "computer-science"
+    },
+    {
+        "id": 7,
+        "title": "Business Management",
+        "imageUrl": "https://media.istockphoto.com/photos/paperless-workplace-idea-esigning-electronic-signature-document-an-picture-id1349390515?s=612x612",
+        "linkUrl": "computer-science"
+    },
+    {
+        "id": 8,
+        "title": "International Finance & Banking",
+        "imageUrl": "https://media.istockphoto.com/photos/analyzing-data-picture-id629202004?s=612x612",
+        "linkUrl": "computer-science"
+    },
+    {
+        "id": 9,
+        "title": "Fashion Communication",
+        "imageUrl": "https://media.istockphoto.com/photos/college-fashion-student-attending-class-in-the-classroom-working-on-picture-id1268721627?s=612x612",
+        "linkUrl": "computer-science"
+
+    }
+]

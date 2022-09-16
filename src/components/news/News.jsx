@@ -41,7 +41,6 @@ const News = () => {
                         <div className='article-read-more'>
                                      <a href={article.articleUrl} >
                                 Read More &#8594;
-
                             </a>
                         </div>
                
@@ -53,36 +52,7 @@ const News = () => {
 
                     })
                 }
-{/*                 <div className="individual-article-block">
-                    <div className="individual--article__block--img">
-                        <img className='focus-image' src='https://d1pe6f90ru47yo.cloudfront.net/wp-content/uploads/2022/09/09071213/9522632601_141380c97f_o-860x375.jpg' alt='headline'/>
-                    </div>
-                     <p className='article-date'>March 05, 2022</p>
-                    <h5>Lorem ipsum dolor sit amet consectetur</h5>
-                    <p className='article-subtitle'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nemo.
-                    </p>
-                </div>
-                <div className="individual-article-block">
-                    <div className="individual--article__block--img">
-                        <img className='focus-image' src='https://d1pe6f90ru47yo.cloudfront.net/wp-content/uploads/2022/09/09071213/9522632601_141380c97f_o-860x375.jpg' alt='headline'/>
-                    </div>
-                     <p className='article-date'>March 05, 2022</p>
-                    <h5>Lorem ipsum dolor sit amet consectetur</h5>
-                    <p className='article-subtitle'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nemo.
-                    </p>
-                </div>
-                <div className="individual-article-block">
-                    <div className="individual--article__block--img">
-                        <img className='focus-image' src='https://d1pe6f90ru47yo.cloudfront.net/wp-content/uploads/2022/09/09071213/9522632601_141380c97f_o-860x375.jpg' alt='headline'/>
-                    </div>
-                     <p className='article-date'>March 05, 2022</p>
-                    <h5>Lorem ipsum dolor sit amet consectetur</h5>
-                    <p className='article-subtitle'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, nemo.
-                    </p>
-                </div> */}
+
             </div>
         </div>
     </div>

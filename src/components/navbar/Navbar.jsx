@@ -15,10 +15,10 @@ const Navbar = () => {
     <nav className='nav-container'>
         <Link to='/' className='nav-logo'>WhereNext?</Link>
         <div className='nav-center'>
-            <Link to='about' className='nav-links'>About </Link>
-            <Link to='/' className='nav-links'>Discover</Link>
-            <Link to='/' className='nav-links'>Update</Link>
-            <Link to='news' className='nav-links'>News</Link>
+            <Link to='/' className='nav-links'>About </Link>
+            <Link to='/discover' className='nav-links'>Discover</Link>
+            {/* <Link to='/' className='nav-links'>Update</Link> */}
+            <Link to='news' className='nav-links'>Latest News</Link>
         </div>
         <div className='nav-sign-up arrow'>
         { currentUser ? (

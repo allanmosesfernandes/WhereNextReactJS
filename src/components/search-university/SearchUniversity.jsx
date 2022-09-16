@@ -1,11 +1,10 @@
 import {Link} from 'react-router-dom'
 import React from 'react'
 import { Component } from 'react'
-import './search-course.css'
-import COURSES from '../../courses.json'
+import COURSES from '../../universities.json'
 
 
-class SearchCourse extends Component {
+class SearchUniversity extends Component {
     constructor() {
         super();
         this.state = {
@@ -34,11 +33,16 @@ class SearchCourse extends Component {
                 
         {
             filteredCourses.map((course) => {
-                return  <div className="card-container">
+                return  <div className="card-container" key={course.id}>
                     <img src={course.imageUrl} alt='course-tile' className='course-tile'/>
                     <div className="content-container">
                         <h4>{course.title}</h4>
-                        <Link to='/discover/computer-science' className='learn-more'>Learn More</Link>
+                        <h4>Ranking: {course.id}</h4>
+                        <button className='appy'>
+                            <Link to='/discover/computer-science/course-details' >APPLY</Link>
+                        </button>
+                       
+                        {/* <Link to={`${course.linkUrl}`} className='learn-more'>Learn More</Link> */}
                     </div>
                 </div>
             })
@@ -51,4 +55,4 @@ class SearchCourse extends Component {
 }}
 
 
-export default SearchCourse
+export default SearchUniversity
