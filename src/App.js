@@ -12,7 +12,7 @@ function App() {
 
   const About = () => {
     return(
-      <h2>Loda Lasson</h2>
+      <h2>About Us</h2>
     )
   }
   return (
