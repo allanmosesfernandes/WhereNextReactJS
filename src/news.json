@@ -1,0 +1,50 @@
+[{
+        "id": 1,
+        "title": "France hits 400,000 int’l student mark",
+        "subtitle": "France has recorded the highest growth in international students in over 15 years and now exceeds the 400,000 mark, Campus France has announced.",
+        "imageUrl": "https://d1pe6f90ru47yo.cloudfront.net/wp-content/uploads/2022/09/06152051/rodrigo-kugnharski-pdWc5wm1STw-unsplash-1-860x375.jpg",
+        "articleUrl": "https://thepienews.com/news/france-15-year-record-growth-in-intl-students/",
+        "date": "September 09, 2022"
+    },
+    {
+        "id": 2,
+        "title": "Ardern welcomes students back to New Zealand",
+        "subtitle": "The prime minister of New Zealand has welcomed international students back to classes at an event at the country’s largest university.",
+        "imageUrl": "https://d1pe6f90ru47yo.cloudfront.net/wp-content/uploads/2022/09/06143008/Screen-Shot-2022-09-06-at-15.28.41-860x375.png",
+        "articleUrl": "https://thepienews.com/news/jacinda-ardern-welcomes-returning-students-to-new-zealand/",
+        "date": "September 06, 2022"
+    },
+    {
+        "id": 4,
+        "title": "Canada extends remote learning at ‘last-minute’ as visa delays continue",
+        "subtitle": "International students at Canadian universities can continue to study remotely without jeopardising their chances of working in the country..",
+        "imageUrl": "https://d1pe6f90ru47yo.cloudfront.net/wp-content/uploads/2022/09/06145028/pexels-liza-summer-6347915-860x375.jpg",
+        "articleUrl": "https://thepienews.com/news/canada-distance-learning-extension/",
+        "date": "September 06, 2022"
+    },
+    {
+        "id": 3,
+        "title": "Australia: Victoria unveils $53 million investment as students remain offshore",
+        "subtitle": "The Victorian government will invest almost AUS$53 million into the region’s international education sector by 2025 in a bid to attract more foreign students to Australia.",
+        "imageUrl": "https://d1pe6f90ru47yo.cloudfront.net/wp-content/uploads/2022/09/07100256/ayush-jain-6DiTXhlRE70-unsplash-860x375.jpg",
+        "articleUrl": "https://thepienews.com/news/australia-victoria-investment/",
+        "date": "September 08, 2022"
+    },
+
+    {
+        "id": 5,
+        "title": "UK: CAS continues to be problem as Indians take top place in visas",
+        "subtitle": "UK universities are at risk of missing student growth targets as a result of reaching CAS limits meaning successful prospective international applicants cannot access student visas.",
+        "imageUrl": "https://d1pe6f90ru47yo.cloudfront.net/wp-content/uploads/2022/08/30092852/iStock-666665826-1-860x375.jpg",
+        "articleUrl": "https://thepienews.com/news/uk-cas-continues-to-be-problem-as-indians-take-top-place-in-visas/?utm_source=Bibblio",
+        "date": "August 30, 2022"
+    },
+    {
+        "id": 6,
+        "title": "Africa: China non-committal on return date",
+        "subtitle": "n China-Africa Cooperation has failed to deliver a date for return to China of thousands of African students who were studying in the country, prior to the Covid-19 outbreak 2020.",
+        "imageUrl": "https://d1pe6f90ru47yo.cloudfront.net/wp-content/uploads/2022/08/25091356/pexels-reto-bu%CC%88rkler-1443894-860x375.jpg",
+        "articleUrl": "https://thepienews.com/news/china-non-committal-on-return-date-for-african-students/",
+        "date": "August 25, 2022"
+    }
+]

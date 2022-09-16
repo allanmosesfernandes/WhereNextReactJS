@@ -1,0 +1,58 @@
+[
+    {
+    "title": "University of Cambridge",
+    "id": 1,
+    "imageUrl": "https://www.cam.ac.uk/sites/www.cam.ac.uk/files/inner-images/logo.jpg"
+    },
+    {
+    "title": "University of Oxford",
+    "id": 2,
+    "imageUrl": "https://seeklogo.com/images/U/University_of_Oxford-logo-2ACBB1AA61-seeklogo.com.png"
+    },
+    {
+    "title": "Imperial College London",
+    "id": 3,
+    "imageUrl": "https://ih1.redbubble.net/image.3618593226.6109/st,small,507x507-pad,600x600,f8f8f8.jpg"
+    },
+    {
+    "title": "University of Warwick",
+    "id": 4,
+    "imageUrl": "https://d3e1m60ptf1oym.cloudfront.net/4077a255-93b9-4c7c-a84e-ac3f168371d2/Warwick_Crest~2_xlarge.jpg"
+    },
+    {
+    "title": "University of St Andrews",
+    "id": 5,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/University_of_St_Andrews_arms.svg/1200px-University_of_St_Andrews_arms.svg.png"
+    },
+    {
+    "title": "Durham University",
+    "id": 6,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Durham_shield.png"
+    },
+    {
+    "title": "University of Manchester",
+    "id": 7,
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Manchester_University_Logo_%282%29.png"
+    },
+    {
+    "title": "UCL (University College London)",
+    "id": 8,
+    "imageUrl": "https://ih1.redbubble.net/image.2323359423.7266/fposter,small,wall_texture,product,750x1000.jpg"
+    },
+    {
+    "title": "University of Bristol",
+    "id": 9,
+    "imageUrl": "https://storage.prtl.co/endor/organisations/147/logos/1641399727_square-logo.png"
+    },
+    {
+    "title": "University of Bath",
+    "id": 10,
+    "imageUrl": "https://www.bath.ac.uk/lens/109/assets/university-of-bath/images/logo/uob-logo-standard.svg"
+    },
+    {
+    "title": "Nottingham Trent University",
+    "id": 30,
+    "imageUrl": "data:image/png;base64,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"
+    }
+]
+

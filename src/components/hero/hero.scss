@@ -43,16 +43,10 @@
     transition: all 0.2s ease-in;
     height: 58px;
 
-    .arrow {
-        color: #fff;
-    }
-
     &:hover {
-        .arrow {
-            transform: translateX(5px);
-            transition: all 0.2s ease-in-out;
-            color: #fff;
-        }
+            background: #fff;
+            border: 2px solid #EF5C1E;
+    color: #EF5C1E;
     }
 }
 

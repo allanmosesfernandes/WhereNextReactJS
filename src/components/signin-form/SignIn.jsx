@@ -1,4 +1,4 @@
-import {React, useState} from 'react'
+import {React, useState } from 'react'
 import { 
     createAuthUserWithEmailAndPassword, 
     createUserDocFromAuth,
@@ -8,6 +8,7 @@ import {
 import './sigin-form.scss';
 import Button from '../buttons/Button'
 import FormInput from '../form-input-component/FormInput'
+
 const SignUpForm = () => {
 const defaultFormFields = {
     email: '',
@@ -15,6 +16,7 @@ const defaultFormFields = {
 }
 const [formFields, setFormFields] = useState(defaultFormFields);
 const {email, password} = formFields;
+
 
 const handleChange = (event) => {
 const {name, value} = event.target;
@@ -26,8 +28,8 @@ const resetFormFields = () => {
 }
 
 const signInWithGPopup = async () => {
-    const {user}  = await signInWithGooglePopup();
-    await createUserDocFromAuth(user)
+    await signInWithGooglePopup();
+    // await createUserDocFromAuth(user)
 }
 
 const formSubmit = async (e) => {
@@ -35,12 +37,11 @@ const formSubmit = async (e) => {
     try {
         // const {user} = await createAuthUserWithEmailAndPassword(email,password);
         // await createUserDocFromAuth(user,{});
-        const response = await UserSignInWithEmailAndPassword(email,password);
-        console.log(response);
+        const { user } = await UserSignInWithEmailAndPassword(email,password);
         resetFormFields();
     }
     catch(error) {
-
+        console.log(error)
         switch(error.code) {
             case 'auth/wrong-password':
             alert('Wrong password for email');

@@ -1,0 +1,54 @@
+.focus-article {
+    gap: 2rem;
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+    .focus-image {
+        border-radius: 5px;
+    }
+}
+
+.article-date {
+    color: gray;
+    font-size: 12px;
+}
+.articles-container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.individual--article-text {
+    padding: 5px;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4rem;
+
+    img {
+        border-radius: 5px;
+    }
+
+    .individual-article-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        border-radius: 10px;
+    }
+}
+
+.article-read-more {
+    color: #EF5C1E;
+    margin: 10px 0;
+    font-weight: bold;
+        font-size: 14px;
+
+}
+
+.article-subtitle {
+    margin: 1rem 0;
+}

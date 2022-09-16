@@ -18,10 +18,10 @@ const Hero = () => {
             Everything you need to know for your study abroad journey: from your first search to your first
             day on campus.
         </p>
-        <Link to='about'>
+        <Link to='/discover'>
             <button className='hero-cta arrow'>
                 Get Started
-            <GrFormNextLink className='arrow' style={{marginTop:`3px`}} color="white"/>
+           
             </button>
         </Link>
 

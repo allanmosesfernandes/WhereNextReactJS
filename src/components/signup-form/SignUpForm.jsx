@@ -4,6 +4,7 @@ import { createAuthUserWithEmailAndPassword, createUserDocFromAuth } from '../..
 import { setDoc } from 'firebase/firestore'
 import Button from '../buttons/Button'
 import FormInput from '../form-input-component/FormInput'
+
 const SignUpForm = () => {
 const defaultFormFields = {
     displayName: '',
@@ -14,6 +15,7 @@ const defaultFormFields = {
 
 const [formFields, setFormFields] = useState(defaultFormFields);
 const {displayName, email, password, confirmPassword} = formFields;
+
 
 const handleChange = (event) => {
 const {name, value} = event.target;
@@ -26,12 +28,13 @@ const resetFormFields = () => {
 const formSubmit = async (e) => {
     e.preventDefault();
     if (password !== confirmPassword) {
-        alert('Andha hai kya lavde');
+        alert('Passwords do not match!');
         return;
     }
 
     try {
         const {user} = await createAuthUserWithEmailAndPassword(email,password);
+        console.log(user);
         await createUserDocFromAuth(user,{displayName});
         resetFormFields();
     }
@@ -39,8 +42,10 @@ const formSubmit = async (e) => {
     catch(error) {
         if(error.code === 'auth/email-already-in-use')
         {
+            console.log(error);
             alert('Cannot create user, email already in use')
         }
+        console.log(error);
     }
 }
 
